@@ -167,10 +167,19 @@ function func_submenus () {
 
 function ajaxy () {
 	var post_link = $(this).attr("data-permalink");
-	var data_display = $(this).attr("data-display");
 
-	$("#"+data_display+" #single").html("<h3>Cargando portafolio</h3>");
-	$("#"+data_display+" #single").load(post_link);
+	$('.single > div').empty();
+	$('.single > div').html("<h3>Cargando portafolio</h3>");
+	$('.single > div').load(post_link);
+	$('.single').slideDown('fast');
+}
+
+function closeAjaxy () {
+	$('.single').on('click', function(){
+		$('.single').slideUp('fast', function(){
+			$('.single > div').empty();
+		});
+	});
 }
 
 function subir () {
@@ -181,22 +190,57 @@ function arranque () {
 	$.ajaxSetup({cache:false});
 }
 
+function scrollTop(){
+	$('.principal a').on('click', function(){
+		var seccion 	= $(this).data('seccion');
+		var divPosicion = $("section[data-seccion='"+seccion+"']").offset().top;
+			divPosicion = divPosicion - altoHeader;
+
+		console.log(divPosicion);
+
+		$('.principal a').removeClass("active");
+		$(this).addClass('active');
+
+		$('html, body').animate({scrollTop: divPosicion}, 400);
+
+	});
+}
+
+//////////////////////////////
+
 var doc = $(document);
 $('#formulario').submit(function(){
 	return false;
 });
 doc.on("ready", func_submenus);
+doc.on("ready", altoHeaderResponsive);
+doc.on("ready", scrollTop);
+doc.on("ready", closeAjaxy);
 //doc.on("change", ".js-input", validar);
 doc.on("click", '.js-ajax', ajaxy);
-doc.on("click", '.js-enviar', enviando);
-doc.on("click", '.js-borrar', borrar);
+doc.on("click", '.enviar', enviando);
+doc.on("click", '.borrar', borrar);
 doc.on("click", '.js-arriba', subir);
 
-$( ".js-estrategia" ).hover(
-	function() {
-		$( this ).next(".js-estrategia_web").fadeIn();
-		console.log("arriba");
-	}, function() {
-		$( this ).next(".js-estrategia_web").hide();
-	}
-);
+
+$('.estrategia_hover span').mouseenter(function() {
+	$(this).parent().find('.estrategia_web').fadeIn();
+	console.log('entró');
+});
+
+$('.estrategia_web').mouseleave(function() {
+	$(this).fadeOut();
+	console.log('salió');
+});
+
+
+// **************************
+// RESPONSIVE
+// **************************
+
+var altoHeader;
+function altoHeaderResponsive(){
+	altoHeader = $('header').height();
+	console.log(altoHeader);
+	$('#amapola_home').css('paddingTop', altoHeader);
+}
