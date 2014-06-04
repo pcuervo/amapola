@@ -16,32 +16,38 @@
 	<body>
 
 	<header>
+
 		<div class="header_top">
 			<div class="stripes full"></div>
 			<div class="width clearfix">
-				<a class="aviso">AVISO DE PRIVACIDAD</a>
-				<nav class="redes right">
-					<a href="#"><figure><img src="images/home.png"></figure></a></li>
-					<a href="#"><figure><img src="images/fcebook.png"></figure></a></li>
-					<a href="#"><figure><img src="images/twitter.png"></figure></a></li>
+				<a class="aviso hide medium span medium-6">AVISO DE PRIVACIDAD</a>
+				<nav class="redes right span medium-4 xmall-12 clearfix">
 					<a href="#"><figure><img src="images/mail.png"></figure></a></li>
+					<a href="#"><figure><img src="images/twitter.png"></figure></a></li>
+					<a href="#"><figure><img src="images/fcebook.png"></figure></a></li>
+					<a href="#"><figure><img src="images/home.png"></figure></a></li>
 				</nav><!-- redes -->
 			</div><!-- width -->
 		</div><!-- header_top -->
 
-		<h1 class="block columna medium-2 center">
+		<h1 class="block columna large-2 medium-3 small-6 xmall-8 center">
 			<a href="#">
 				<img src="images/amapola_logo.png" alt="Amapola"  />
 			</a>
 		</h1>
 
-		<nav class="principal clearfix">
-			<div class="columna medium-8 center">
+		<nav class="principal">
+			<div class="span medium-8 center clearfix">
 				<a class="text-center" data-seccion="sobre_amapola">SOBRE AMAPOLA</a></li>
+				<div class="hide contenedor contenedor_sobre_amapola"></div>
 				<a class="text-center" data-seccion="clientes">CLIENTES</a></li>
+				<div class="hide contenedor contenedor_clientes"></div>
 				<a class="text-center" data-seccion="estrategias">ESTRATEGIA</a></li>
+				<div class="hide contenedor contenedor_estrategias"></div>
 				<a class="text-center" data-seccion="portafolio">PORTAFOLIO</a></li>
+				<div class="hide contenedor contenedor_portafolio"></div>
 				<a class="text-center" data-seccion="contacto">CONTACTO</a></li>
+				<div class="hide contenedor contenedor_contacto"></div>
 			</div>
 		</nav><!-- principal -->
 
