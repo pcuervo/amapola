@@ -23,35 +23,25 @@
 			</div>
 
 			<ul class="portafolio port_home columna large-6 medium-8 xmall-12 right">
-				<li class="menu_portafolio clearfix branding">
-					<a href="http://nodo.pw/amapola_web/portafolio/branding">
-						<figure><img src="images/branding.png" alt="Amapola Estudio - Branding"></figure>
-						<p>BRANDING</p>
-					</a>
+				<li class="clearfix branding">
+					<figure><img src="images/branding.png" alt="Amapola Estudio - Branding"></figure>
+					<p>BRANDING</p>
 				</li>
-				<li class="menu_portafolio clearfix digital">
-					<a href="http://nodo.pw/amapola_web/portafolio/digital">
-						<figure><img src="images/digital.png" alt="Amapola Estudio - digital"></figure>
-						<p>DIGITAL</p>
-					</a>
+				<li class="clearfix digital">
+					<figure><img src="images/digital.png" alt="Amapola Estudio - digital"></figure>
+					<p>DIGITAL</p>
 				</li>
-				<li class="menu_portafolio clearfix editorial">
-					<a href="http://nodo.pw/amapola_web/portafolio/editorial">
-						<figure><img src="images/editorial.png" alt="Amapola Estudio - editorial"></figure>
-						<p>EDITORIAL</p>
-					</a>
+				<li class="clearfix editorial">
+					<figure><img src="images/editorial.png" alt="Amapola Estudio - editorial"></figure>
+					<p>EDITORIAL</p>
 				</li>
-				<li class="menu_portafolio clearfix empaque">
-					<a href="http://nodo.pw/amapola_web/portafolio/empaque">
-						<figure><img src="images/empaque.png" alt="Amapola Estudio - empaque"></figure>
-						<p>EMPAQUE</p>
-					</a>
+				<li class="clearfix empaque">
+					<figure><img src="images/empaque.png" alt="Amapola Estudio - empaque"></figure>
+					<p>EMPAQUE</p>
 				</li>
-				<li class="menu_portafolio clearfix infografias">
-					<a href="http://nodo.pw/amapola_web/portafolio/infografias">
-						<figure><img src="images/infografias.png" alt="Amapola Estudio - infografias"></figure>
-						<p>INFOGRAFÍAS</p>
-					</a>
+				<li class="clearfix infografias">
+					<figure><img src="images/infografias.png" alt="Amapola Estudio - infografias"></figure>
+					<p>INFOGRAFÍAS</p>
 				</li>
 			</ul><!-- portafolio -->
 		</div>
@@ -254,49 +244,61 @@
 				<ul class="portafolio js-submenu-portafolio portafolio clearfix port_sobre columna medium-8 center">
 
 					<li class="menu_portafolio branding">
-						<a href="#">
+						<a data-categoria="branding">
 							<figure><img src="images/branding.png" alt="Amapola Estudio - Branding"></figure>
 							<p>BRANDING</p>
 						</a>
 					</li>
-
 					<li class="menu_portafolio digital">
-						<a href="#">
+						<a data-categoria="digital">
 							<figure><img src="images/digital.png" alt="Amapola Estudio - digital"></figure>
 							<p>DIGITAL</p>
 						</a>
 					</li>
-
 					<li class="menu_portafolio editorial">
-						<a href="#">
+						<a data-categoria="editorial">
 							<figure><img src="images/editorial.png" alt="Amapola Estudio - editorial"></figure>
 							<p>EDITORIAL</p>
 						</a>
 					</li>
-
 					<li class="menu_portafolio empaque">
-						<a href="#">
+						<a data-categoria="empaque">
 							<figure><img src="images/empaque.png" alt="Amapola Estudio - empaque"></figure>
 							<p>EMPAQUE</p>
 						</a>
 					</li>
-
 					<li class="menu_portafolio infografias">
-						<a href="#"
-							><figure><img src="images/infografias.png" alt="Amapola Estudio - infografias"></figure>
+						<a data-categoria="infografias">
+							<figure><img src="images/infografias.png" alt="Amapola Estudio - infografias"></figure>
 							<p>INFOGRAFÍAS</p>
 						</a>
 					</li>
 
 				</ul><!-- portafolio -->
 
-				<ul class="descripcion_portafolio margin-bottom">
+				<ul class="descripcion_portafolio margin-bottom" data-categoria="branding">
 					<li>Naming: creación de un nombre o de una marca</li>
 					<li>Identidad Corporativa / Manual de Identidad Corporativa</li>
 					<li>Registro de marcas en el IMPI</li>
 					<li>Presentaciones corporativas (Prezzi, Power Point, Video)</li>
 					<li>Construcción y posicionamiento de marca / Arquitectura de marca</li>
-				</ul>
+				</ul><!-- branding -->
+
+				<ul class="descripcion_portafolio margin-bottom hide" data-categoria="digital">
+					<li>Digital</li>
+				</ul><!-- digital -->
+
+				<ul class="descripcion_portafolio margin-bottom hide" data-categoria="editorial">
+					<li>editorial</li>
+				</ul><!-- editorial -->
+
+				<ul class="descripcion_portafolio margin-bottom hide" data-categoria="empaque">
+					<li>empaque</li>
+				</ul><!-- empaque -->
+
+				<ul class="descripcion_portafolio margin-bottom hide" data-categoria="infografias">
+					<li>infografias</li>
+				</ul><!-- infografias -->
 
 			</div><!-- width -->
 
@@ -379,7 +381,7 @@
 			<div class="width clearfix">
 				<h2 class="text-center columna medium-8 center margin-bottom">!NOS GUSTARÍA HABLAR CONTIGO!</h2>
 
-				<div class="contacto_left columna large-6 xmall-12 clearfix">
+				<div class="contacto_left columna medium-6 xmall-12 clearfix">
 
 					<span>Estamos a tus órdenes</span>
 
@@ -398,7 +400,7 @@
 
 				</div><!-- contacto_left -->
 
-				<div class="contacto_right columna large-6 xmall-12">
+				<div class="contacto_right columna medium-6 xmall-12">
 					<span class="block text-center">Déjanos tus datos para ponernos en <br> contacto contigo:</span>
 					<form class="formulario" id="formulario" method="post" action="#">
 

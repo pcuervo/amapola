@@ -208,6 +208,16 @@ function scrollTop(){
 	});
 }
 
+function infoPortafolio(){
+	$('.menu_portafolio a').on('click', function(){
+		var categoria 		= $(this).data('categoria');
+		var divCategoria 	= $(".descripcion_portafolio[data-categoria='"+categoria+"']");
+		$('.descripcion_portafolio').hide().removeClass('hide');
+		console.log(divCategoria);
+		divCategoria.show();
+	});
+}
+
 //////////////////////////////
 
 var doc = $(document);
@@ -218,6 +228,7 @@ doc.on("ready", func_submenus);
 doc.on("ready", closeAjaxy);
 doc.on("ready", scrollTop);
 doc.on("ready", fillEmpty);
+doc.on("ready", infoPortafolio);
 //doc.on("change", ".js-input", validar);
 doc.on("click", '.js-ajax', ajaxy);
 doc.on("click", '.enviar', enviando);
