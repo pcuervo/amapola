@@ -39,15 +39,15 @@
 
 		<nav class="principal">
 			<div class="span medium-8 center clearfix">
-				<a class="text-center" data-seccion="sobre_amapola">SOBRE AMAPOLA<i class="fa fa-chevron-right right"></i></a></li>
+				<a class="text-center" data-seccion="sobre_amapola">SOBRE AMAPOLA<i class="fa fa-chevron-right right no-medium"></i></a></li>
 				<div class="hide contenedor contenedor_sobre_amapola"></div>
-				<a class="text-center" data-seccion="clientes">CLIENTES<i class="fa fa-chevron-right right"></i></a></li>
+				<a class="text-center" data-seccion="clientes">CLIENTES<i class="fa fa-chevron-right right no-medium"></i></a></li>
 				<div class="hide contenedor contenedor_clientes"></div>
-				<a class="text-center" data-seccion="estrategias">ESTRATEGIA<i class="fa fa-chevron-right right"></i></a></li>
+				<a class="text-center" data-seccion="estrategias">ESTRATEGIA<i class="fa fa-chevron-right right no-medium"></i></a></li>
 				<div class="hide contenedor contenedor_estrategias"></div>
-				<a class="text-center" data-seccion="portafolio">PORTAFOLIO<i class="fa fa-chevron-right right"></i></a></li>
+				<a class="text-center" data-seccion="portafolio">PORTAFOLIO<i class="fa fa-chevron-right right no-medium"></i></a></li>
 				<div class="hide contenedor contenedor_portafolio"></div>
-				<a class="text-center" data-seccion="contacto">CONTACTO<i class="fa fa-chevron-right right"></i></a></li>
+				<a class="text-center" data-seccion="contacto">CONTACTO<i class="fa fa-chevron-right right no-medium"></i></a></li>
 				<div class="hide contenedor contenedor_contacto"></div>
 			</div>
 		</nav><!-- principal -->

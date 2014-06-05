@@ -25,24 +25,24 @@
 			<ul class="portafolio port_home columna large-6 medium-8 xmall-12 right">
 				<li class="clearfix branding">
 					<figure><img src="images/branding.png" alt="Amapola Estudio - Branding"></figure>
-					<p>BRANDING<i class="fa fa-chevron-right right"></i></p>
+					<p>BRANDING<i class="fa fa-chevron-right right no-medium"></i></p>
 					
 				</li>
 				<li class="clearfix digital">
 					<figure><img src="images/digital.png" alt="Amapola Estudio - digital"></figure>
-					<p>DIGITAL<i class="fa fa-chevron-right right"></i></p>
+					<p>DIGITAL<i class="fa fa-chevron-right right no-medium"></i></p>
 				</li>
 				<li class="clearfix editorial">
 					<figure><img src="images/editorial.png" alt="Amapola Estudio - editorial"></figure>
-					<p>EDITORIAL<i class="fa fa-chevron-right right"></i></p>
+					<p>EDITORIAL<i class="fa fa-chevron-right right no-medium"></i></p>
 				</li>
 				<li class="clearfix empaque">
 					<figure><img src="images/empaque.png" alt="Amapola Estudio - empaque"></figure>
-					<p>EMPAQUE<i class="fa fa-chevron-right right"></i></p>
+					<p>EMPAQUE<i class="fa fa-chevron-right right no-medium"></i></p>
 				</li>
 				<li class="clearfix infografias">
 					<figure><img src="images/infografias.png" alt="Amapola Estudio - infografias"></figure>
-					<p>INFOGRAFÍAS<i class="fa fa-chevron-right right"></i></p>
+					<p>INFOGRAFÍAS<i class="fa fa-chevron-right right no-medium"></i></p>
 				</li>
 			</ul><!-- portafolio -->
 		</div>
@@ -98,31 +98,31 @@
 					<li class="menu_portafolio branding">
 						<a href="images/portafolio/branding">
 							<figure><img src="images/branding.png" alt="Amapola Estudio - Branding"></figure>
-							<p>BRANDING<i class="fa fa-chevron-right right"></i></p>
+							<p>BRANDING<i class="fa fa-chevron-right right no-medium"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio digital">
 						<a href="images/portafolio/digital">
 							<figure><img src="images/digital.png" alt="Amapola Estudio - digital"></figure>
-							<p>DIGITAL<i class="fa fa-chevron-right right"></i></p>
+							<p>DIGITAL<i class="fa fa-chevron-right right no-medium"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio editorial">
 						<a href="images/portafolio/editorial">
 							<figure><img src="images/editorial.png" alt="Amapola Estudio - editorial"></figure>
-							<p>EDITORIAL<i class="fa fa-chevron-right right"></i></p>
+							<p>EDITORIAL<i class="fa fa-chevron-right right no-medium"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio empaque">
 						<a href="images/portafolio/empaque">
 							<figure><img src="images/empaque.png" alt="Amapola Estudio - empaque"></figure>
-							<p>EMPAQUE<i class="fa fa-chevron-right right"></i></p>
+							<p>EMPAQUE<i class="fa fa-chevron-right right no-medium"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio infografias">
 						<a href="images/portafolio/infografias"
 							><figure><img src="images/infografias.png" alt="Amapola Estudio - infografias"></figure>
-							<p>INFOGRAFÍAS<i class="fa fa-chevron-right right"></i></p>
+							<p>INFOGRAFÍAS<i class="fa fa-chevron-right right no-medium"></i></p>
 						</a>
 					</li>
 				</ul>
@@ -268,31 +268,31 @@
 					<li class="menu_portafolio branding">
 						<a data-categoria="branding">
 							<figure><img src="images/branding.png" alt="Amapola Estudio - Branding"></figure>
-							<p>BRANDING<i class="fa fa-chevron-right right"></i></p>
+							<p>BRANDING<i class="fa fa-chevron-right right no-medium"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio digital">
 						<a data-categoria="digital">
 							<figure><img src="images/digital.png" alt="Amapola Estudio - digital"></figure>
-							<p>DIGITAL<i class="fa fa-chevron-right right"></i></p>
+							<p>DIGITAL<i class="fa fa-chevron-right right no-medium"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio editorial">
 						<a data-categoria="editorial">
 							<figure><img src="images/editorial.png" alt="Amapola Estudio - editorial"></figure>
-							<p>EDITORIAL<i class="fa fa-chevron-right right"></i></p>
+							<p>EDITORIAL<i class="fa fa-chevron-right right no-medium"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio empaque">
 						<a data-categoria="empaque">
 							<figure><img src="images/empaque.png" alt="Amapola Estudio - empaque"></figure>
-							<p>EMPAQUE<i class="fa fa-chevron-right right"></i></p>
+							<p>EMPAQUE<i class="fa fa-chevron-right right no-medium"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio infografias">
 						<a data-categoria="infografias">
 							<figure><img src="images/infografias.png" alt="Amapola Estudio - infografias"></figure>
-							<p>INFOGRAFÍAS<i class="fa fa-chevron-right right"></i></p>
+							<p>INFOGRAFÍAS<i class="fa fa-chevron-right right no-medium"></i></p>
 						</a>
 					</li>
 
@@ -392,7 +392,7 @@
 		<figure class="js-arriba arriba"><img src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/footer_circle.png" alt="Amapola Estudio"></figure>
 	</div>
 
-	<section data-seccion="contacto" class="hide medium">
+	<section data-seccion="contacto" class="hide medium contacto">
 
 		<div class="lineas">
 			<img class="block columna medium-4 xmall-6 center logo-seccion" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/logo_contacto.png" alt="Amapola Alianzas">
