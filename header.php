@@ -11,6 +11,7 @@
 
 		<link href='http://fonts.googleapis.com/css?family=Rambla:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Podkova:400,700' rel='stylesheet' type='text/css'>
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
 
 	<body>
@@ -38,15 +39,15 @@
 
 		<nav class="principal">
 			<div class="span medium-8 center clearfix">
-				<a class="text-center" data-seccion="sobre_amapola">SOBRE AMAPOLA</a></li>
+				<a class="text-center" data-seccion="sobre_amapola">SOBRE AMAPOLA<i class="fa fa-chevron-right right"></i></a></li>
 				<div class="hide contenedor contenedor_sobre_amapola"></div>
-				<a class="text-center" data-seccion="clientes">CLIENTES</a></li>
+				<a class="text-center" data-seccion="clientes">CLIENTES<i class="fa fa-chevron-right right"></i></a></li>
 				<div class="hide contenedor contenedor_clientes"></div>
-				<a class="text-center" data-seccion="estrategias">ESTRATEGIA</a></li>
+				<a class="text-center" data-seccion="estrategias">ESTRATEGIA<i class="fa fa-chevron-right right"></i></a></li>
 				<div class="hide contenedor contenedor_estrategias"></div>
-				<a class="text-center" data-seccion="portafolio">PORTAFOLIO</a></li>
+				<a class="text-center" data-seccion="portafolio">PORTAFOLIO<i class="fa fa-chevron-right right"></i></a></li>
 				<div class="hide contenedor contenedor_portafolio"></div>
-				<a class="text-center" data-seccion="contacto">CONTACTO</a></li>
+				<a class="text-center" data-seccion="contacto">CONTACTO<i class="fa fa-chevron-right right"></i></a></li>
 				<div class="hide contenedor contenedor_contacto"></div>
 			</div>
 		</nav><!-- principal -->

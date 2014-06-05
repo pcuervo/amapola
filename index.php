@@ -25,23 +25,24 @@
 			<ul class="portafolio port_home columna large-6 medium-8 xmall-12 right">
 				<li class="clearfix branding">
 					<figure><img src="images/branding.png" alt="Amapola Estudio - Branding"></figure>
-					<p>BRANDING</p>
+					<p>BRANDING<i class="fa fa-chevron-right right"></i></p>
+					
 				</li>
 				<li class="clearfix digital">
 					<figure><img src="images/digital.png" alt="Amapola Estudio - digital"></figure>
-					<p>DIGITAL</p>
+					<p>DIGITAL<i class="fa fa-chevron-right right"></i></p>
 				</li>
 				<li class="clearfix editorial">
 					<figure><img src="images/editorial.png" alt="Amapola Estudio - editorial"></figure>
-					<p>EDITORIAL</p>
+					<p>EDITORIAL<i class="fa fa-chevron-right right"></i></p>
 				</li>
 				<li class="clearfix empaque">
 					<figure><img src="images/empaque.png" alt="Amapola Estudio - empaque"></figure>
-					<p>EMPAQUE</p>
+					<p>EMPAQUE<i class="fa fa-chevron-right right"></i></p>
 				</li>
 				<li class="clearfix infografias">
 					<figure><img src="images/infografias.png" alt="Amapola Estudio - infografias"></figure>
-					<p>INFOGRAFÍAS</p>
+					<p>INFOGRAFÍAS<i class="fa fa-chevron-right right"></i></p>
 				</li>
 			</ul><!-- portafolio -->
 		</div>
@@ -50,7 +51,7 @@
 	<section data-seccion="sobre_amapola" class="hide medium">
 
 		<div class="lineas">
-			<img class="block columna medium-2 xmall-4 center logo-seccion" src="images/sobre_logo.png" alt="Amapola Alianzas">
+			<img class="block columna medium-4 xmall-6 center logo-seccion" src="images/sobre_logo.png" alt="Amapola Alianzas">
 		</div>
 
 		<div class="content">
@@ -125,7 +126,7 @@
 						</a>
 					</li>
 				</ul>
-				<p class="text-center" >Comprometemos nuestro tiempo, creatividad y dedicación a tu negocio.</p>
+				<p class="text-center bold" >Comprometemos nuestro tiempo, creatividad y dedicación a tu negocio.</p>
 			</div><!-- width -->
 		</div><!-- content -->
 	</section>
@@ -137,7 +138,7 @@
 	<section data-seccion="clientes" class="hide medium">
 
 		<div class="lineas">
-			<img class="block columna medium-2 xmall-4 center logo-seccion" src="images/logo_clientes.png" alt="Amapola Alianzas">
+			<img class="block columna medium-4 xmall-6 center logo-seccion" src="images/logo_clientes.png" alt="Amapola Alianzas">
 		</div>
 
 		<div class="content">
@@ -168,7 +169,7 @@
 	<section data-seccion="estrategias"  class="hide medium">
 
 		<div class="lineas">
-			<img class="block columna medium-2 xmall-4 center logo-seccion" src="images/estrategias_logo.png" alt="Amapola Alianzas">
+			<img class="block columna medium-4 xmall-6 center logo-seccion" src="images/estrategias_logo.png" alt="Amapola Alianzas">
 		</div>
 
 		<div class="content">
@@ -183,7 +184,10 @@
 			<img class="no-medium" src="images/estrategia_movil.jpg" alt="Estrategia Amapola">
 			<div class="estra_1 estrategia_hover">
 				<span></span>
-				<div class="estrategia_web columna medium-4 xmall-10 estra_web_1">
+				<div class="estrategia_web columna medium-4 xmall-12 estra_web_1">
+					<h4>
+						<a href="#">>
+					</h4>
 					<p>Se trabaja con el cliente para entender a profundidad su producto o servicio.</p>
 					<p>Se definen:</p>
 					<ul>
@@ -234,7 +238,7 @@
 	<section data-seccion="portafolio" class="hide medium">
 
 		<div class="lineas">
-			<img class="block columna medium-2 xmall-4 center logo-seccion" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/portafolio_logo.png" alt="Amapola Alianzas">
+			<img class="block columna medium-4 xmall-6 center logo-seccion" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/portafolio_logo.png" alt="Amapola Alianzas">
 		</div>
 
 		<div class="content">
@@ -373,7 +377,7 @@
 	<section data-seccion="contacto" class="hide medium">
 
 		<div class="lineas">
-			<img class="block columna medium-2 xmall-4 center logo-seccion" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/logo_contacto.png" alt="Amapola Alianzas">
+			<img class="block columna medium-4 xmall-6 center logo-seccion" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/logo_contacto.png" alt="Amapola Alianzas">
 		</div>
 
 		<div class="content">
