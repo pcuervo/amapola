@@ -263,7 +263,7 @@ p{ margin-bottom: 1em; }
 
 body{ background: #fff; }
 
-h1{ margin-bottom: @porcentaje !important; }
+h1{ margin-top: @porcentaje*14 !important; margin-bottom: @porcentaje*10 !important; }
 h2{ margin: @porcentaje*4 !important; padding: 20px 10%; background: #EDEDED; font-family: "Podkova", serif; color: @highlight; font-weight: 400;}
 h3{ font-size: 1.4em; font-family:"Podkova", serif; font-weight: 200; }
 h4{ font-size: 1.4em; font-family:"Podkova", serif; font-weight: 200; }
@@ -288,7 +288,10 @@ section{ background: @claro; }
 /*** HEADER ***/
 header{ width: 100%; background: white; z-index: 1000; }
 
+.stripes{ height: 47px; padding: 7px 0 0 40px; background: url('images/bg_line.png') fixed; position: absolute; top: 0; z-index: 1; }
+
 .header_top{ width: 100%; margin-bottom: @porcentaje; position: relative;
+	> .width{ position: relative; z-index: 2; }
 	.aviso{ font-size: 12px; font-family:'Rambla'; color: @highlight; }
 	.redes{ height: 47px;
 		a{ margin-left: 1%; float: right;}
@@ -302,7 +305,6 @@ header{ width: 100%; background: white; z-index: 1000; }
 	}
 }
 
-.stripes{ height: 47px; padding: 7px 0 0 40px; background: url('images/bg_line.png') fixed; position: absolute; top: 0; z-index: -1; }
 
 .contenedor{ overflow-y: scroll; }
 
@@ -658,6 +660,7 @@ porBox Content CSS
 
 	/*** GENERAL ***/
 
+	h1{ margin-top: 0 !important; margin-bottom: @porcentaje !important; }
 	h2{ margin-top: 0 !important; margin-bottom: @porcentaje !important; }
 
 	/*** HEADER ***/
