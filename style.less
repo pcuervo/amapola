@@ -668,6 +668,10 @@ porBox Content CSS
 	h1{ margin-top: 0 !important; margin-bottom: @porcentaje !important; }
 	h2{ margin-top: 0 !important; margin-bottom: @porcentaje !important; }
 
+	.lineas{ background: url('images/stripes-medium.png') fixed center;
+		> img{ position: relative; top: (@margen*4); }
+	}
+
 	/*** HEADER ***/
 
 	header{ position: fixed; }
@@ -680,13 +684,13 @@ porBox Content CSS
 	}
 
 	.principal{ margin-bottom: @porcentaje; border-top: 5px #D0D0D0 solid; font-family:'Rambla'; background: @highlight; text-transform: uppercase;
-		> div > a{ width: 20%; padding: (@margen/2); border: none; color: #cccccb; cuportafolio_proyectorsor: pointer; float: left;
+		> div > a{ width: 20%; padding: (@margen/2); border: none; color: #cccccb; float: left;
 			&:last-child{margin: 0;}
 			&:hover, &.current_page_item{ color: #fff; }
 		}
 	}
 
-	.stripes{ height: 23px; padding: 7px 0 0 40px; background: url('images/bg_line.png') fixed; position: absolute; top: 0; z-index: -1; }
+	.stripes{ height: 23px; padding: 7px 0 0 40px; background: url('images/bg_line.png') fixed; position: absolute; top: 0; }
 
 	/*** PORTAFOLIO ***/
 
