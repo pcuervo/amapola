@@ -98,31 +98,31 @@
 					<li class="menu_portafolio branding">
 						<a href="images/portafolio/branding">
 							<figure><img src="images/branding.png" alt="Amapola Estudio - Branding"></figure>
-							<p>BRANDING</p>
+							<p>BRANDING<i class="fa fa-chevron-right right"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio digital">
 						<a href="images/portafolio/digital">
 							<figure><img src="images/digital.png" alt="Amapola Estudio - digital"></figure>
-							<p>DIGITAL</p>
+							<p>DIGITAL<i class="fa fa-chevron-right right"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio editorial">
 						<a href="images/portafolio/editorial">
 							<figure><img src="images/editorial.png" alt="Amapola Estudio - editorial"></figure>
-							<p>EDITORIAL</p>
+							<p>EDITORIAL<i class="fa fa-chevron-right right"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio empaque">
 						<a href="images/portafolio/empaque">
 							<figure><img src="images/empaque.png" alt="Amapola Estudio - empaque"></figure>
-							<p>EMPAQUE</p>
+							<p>EMPAQUE<i class="fa fa-chevron-right right"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio infografias">
 						<a href="images/portafolio/infografias"
 							><figure><img src="images/infografias.png" alt="Amapola Estudio - infografias"></figure>
-							<p>INFOGRAFÍAS</p>
+							<p>INFOGRAFÍAS<i class="fa fa-chevron-right right"></i></p>
 						</a>
 					</li>
 				</ul>
@@ -185,9 +185,11 @@
 			<div class="estra_1 estrategia_hover">
 				<span></span>
 				<div class="estrategia_web columna medium-4 xmall-12 estra_web_1">
-					<h4>
-						<a href="#">>
-					</h4>
+					<div class="columna full no-medium">
+						<a class="columna xmall-2 block" href="#"></a>
+						<h4 class="columna xmall-8">Workshop con cliente</h4>
+						<a class="columna xmall-2 block" href="#"></a>
+					</div>
 					<p>Se trabaja con el cliente para entender a profundidad su producto o servicio.</p>
 					<p>Se definen:</p>
 					<ul>
@@ -203,6 +205,11 @@
 			<div class="estra_2 estrategia_hover">
 				<span></span>
 				<div class="estrategia_web columna medium-4 xmall-10 estra_web_2">
+					<div class="columna full no-medium">
+						<a class="columna xmall-2 block" href="#"></a>
+						<h4 class="columna xmall-8">Investigación</h4>
+						<a class="columna xmall-2 block" href="#"></a>
+					</div>
 					<p>Dependiendo del producto o servicio a estudiar se eligen técnicas de investigación.</p>
 					<p>Se realizan:</p>
 					<ul>
@@ -218,6 +225,11 @@
 			<div class="estra_3 estrategia_hover">
 				<span></span>
 				<div class="estrategia_web columna medium-4 xmall-10 estra_web_3">
+					<div class="columna full no-medium">
+						<a class="columna xmall-2 block" href="#"></a>
+						<h4 class="columna xmall-8">Insights</h4>
+						<a class="columna xmall-2 block" href="#"></a>
+					</div>
 					<p>Son fundamentos o declaraciones reales sobre los cuales se construyen:</p>
 					<p>Se realizan:</p>
 					<ul>
@@ -250,31 +262,31 @@
 					<li class="menu_portafolio branding">
 						<a data-categoria="branding">
 							<figure><img src="images/branding.png" alt="Amapola Estudio - Branding"></figure>
-							<p>BRANDING</p>
+							<p>BRANDING<i class="fa fa-chevron-right right"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio digital">
 						<a data-categoria="digital">
 							<figure><img src="images/digital.png" alt="Amapola Estudio - digital"></figure>
-							<p>DIGITAL</p>
+							<p>DIGITAL<i class="fa fa-chevron-right right"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio editorial">
 						<a data-categoria="editorial">
 							<figure><img src="images/editorial.png" alt="Amapola Estudio - editorial"></figure>
-							<p>EDITORIAL</p>
+							<p>EDITORIAL<i class="fa fa-chevron-right right"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio empaque">
 						<a data-categoria="empaque">
 							<figure><img src="images/empaque.png" alt="Amapola Estudio - empaque"></figure>
-							<p>EMPAQUE</p>
+							<p>EMPAQUE<i class="fa fa-chevron-right right"></i></p>
 						</a>
 					</li>
 					<li class="menu_portafolio infografias">
 						<a data-categoria="infografias">
 							<figure><img src="images/infografias.png" alt="Amapola Estudio - infografias"></figure>
-							<p>INFOGRAFÍAS</p>
+							<p>INFOGRAFÍAS<i class="fa fa-chevron-right right"></i></p>
 						</a>
 					</li>
 
