@@ -50,7 +50,7 @@
 	<section data-seccion="sobre_amapola" class="hide medium">
 
 		<div class="lineas">
-			<img class="block columna medium-4 xmall-6 center logo-seccion" src="images/sobre_logo.png" alt="Amapola Alianzas">
+			<img class="block columna medium-3 xmall-6 center logo-seccion" src="images/sobre_logo.png" alt="Amapola Alianzas">
 		</div>
 
 		<div class="content">
@@ -137,7 +137,7 @@
 	<section data-seccion="clientes" class="hide medium">
 
 		<div class="lineas">
-			<img class="block columna medium-4 xmall-6 center logo-seccion" src="images/logo_clientes.png" alt="Amapola Alianzas">
+			<img class="block columna medium-3 xmall-6 center logo-seccion" src="images/logo_clientes.png" alt="Amapola Alianzas">
 		</div>
 
 		<div class="content">
@@ -168,7 +168,7 @@
 	<section data-seccion="estrategias"  class="hide medium">
 
 		<div class="lineas">
-			<img class="block columna medium-4 xmall-6 center logo-seccion" src="images/estrategias_logo.png" alt="Amapola Alianzas">
+			<img class="block columna medium-3 xmall-6 center logo-seccion" src="images/estrategias_logo.png" alt="Amapola Alianzas">
 		</div>
 
 		<div class="content">
@@ -255,7 +255,7 @@
 	<section data-seccion="portafolio" class="hide medium">
 
 		<div class="lineas">
-			<img class="block columna medium-4 xmall-6 center logo-seccion" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/portafolio_logo.png" alt="Amapola Alianzas">
+			<img class="block columna medium-3 xmall-6 center logo-seccion" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/portafolio_logo.png" alt="Amapola Alianzas">
 		</div>
 
 		<div class="content">
@@ -394,7 +394,7 @@
 	<section data-seccion="contacto" class="hide medium contacto">
 
 		<div class="lineas">
-			<img class="block columna medium-4 xmall-6 center logo-seccion" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/logo_contacto.png" alt="Amapola Alianzas">
+			<img class="block columna medium-3 xmall-6 center logo-seccion" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/logo_contacto.png" alt="Amapola Alianzas">
 		</div>
 
 		<div class="content">
