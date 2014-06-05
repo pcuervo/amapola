@@ -414,8 +414,8 @@ header{ width: 100%; background: white; z-index: 1000; }
 	a, p{ display: inline-block; vertical-align: top; font-size: 16px; font-family: "Podkova", serif;  text-align: left;}
 }
 
-.contacto_right{
-	span{ margin: (@margen*2) 0 (@margen*2) 0; color: #A99B71; font-size: 1.4em; }
+.contacto_right{ margin-bottom: (@margen*2);
+	span{ margin-bottom: (@margen*2); color: #A99B71; font-size: 1.4em; }
 	input, textarea{ height: (@margen*3); padding: (@margen/2); border:none; background: #EDEDED; color: #706F6F; font-size: 26px; }
 	textarea{ height: (@margen*8); }
 	.submit{float: right; margin: 0; padding: 0; width: 110px; height: 45px;}
@@ -683,7 +683,7 @@ porBox Content CSS
 	header{ position: fixed; }
 
 	.header_top{ width: 100%; margin-bottom: @porcentaje; position: relative;
-		.aviso{ font-size: 12px; font-family:'Rambla'; color: @highlight; }
+		.aviso{ padding-top: @margen/5; font-size: 12px; font-family:'Rambla'; color: @highlight; }
 		.redes{ height: 47px;
 			a{ margin: 0 1%; float: right;}
 		}
@@ -702,7 +702,7 @@ porBox Content CSS
 	/*** PORTAFOLIO ***/
 
 	.portafolio{ font-size:22px; line-height: 40px; list-style: none; color: @highlight; text-align: center;
-		li{ width: 18%; margin: 0 1%; border-bottom: 12px solid #DBD6C4;  background: url('images/li_portafolio.png') no-repeat; float: left;
+		li{ width: 18%; margin: 0 1%; border-bottom: 12px solid #DBD6C4;  background: url('images/li_portafolio.png') no-repeat; background-size:contain; background-position:center; float: left;
 			a{ display: block; }
 			figure{ display: block; width: 100%; }
 			&.branding{ border-color:  @branding; }
@@ -711,7 +711,7 @@ porBox Content CSS
 			&.empaque{ border-color: @empaque; }
 			&.infografias{ border-color:  @infografias; }
 
-			p{ display: block; width: 100%; margin-bottom: (@porcentaje*4); font-size: 0.5em; line-height: 1em; text-align: center; font-family: 'Rambla'; }
+			p{ display: block; width: 100%; margin-bottom: (@porcentaje*6); font-size: 0.5em; line-height: 0.5em; text-align: center; font-family: 'Rambla'; }
 		}
 
 		&.port_home{}
@@ -743,6 +743,16 @@ porBox Content CSS
 			&.estra_web_3 { top: 0; left: 50%; }
 
 		}
+	}
+
+	/*** CONTACTO ***/
+	.contacto {
+		h2 { background: @gris; font-size: 1.2; }
+	}
+
+	.contacto_left{ padding: @margen*2;
+		span{ font-size: 2.1em; }
+		a, p{ font-size: 1.4em; }
 	}
 
 }

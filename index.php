@@ -255,7 +255,7 @@
 	<section data-seccion="portafolio" class="hide medium">
 
 		<div class="lineas">
-			<img class="block columna medium-3 xmall-6 center logo-seccion" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/portafolio_logo.png" alt="Amapola Alianzas">
+			<img class="block columna medium-3 xmall-6 center logo-seccion" src="images/portafolio_logo.png" alt="Amapola Alianzas">
 		</div>
 
 		<div class="content">
@@ -394,7 +394,7 @@
 	<section data-seccion="contacto" class="hide medium contacto">
 
 		<div class="lineas">
-			<img class="block columna medium-3 xmall-6 center logo-seccion" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/logo_contacto.png" alt="Amapola Alianzas">
+			<img class="block columna medium-3 xmall-6 center logo-seccion" src="images/logo_contacto.png" alt="Amapola Alianzas">
 		</div>
 
 		<div class="content">
@@ -406,17 +406,17 @@
 
 					<span>Estamos a tus órdenes</span>
 
-					<img class="columna xmall-1 medium-2" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/ubicacion.png" alt="">
+					<img class="columna xmall-1 medium-2" src="images/ubicacion.png" alt="">
 					<p class="columna xmall-11 medium-10"> Pedregal 17-D, Molino del Rey, Miguel Hidalgo 11040, México D.F. </p>
 
 					<div class="clear margin-bottom"></div>
 
-					<img class="columna xmall-1 medium-2" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/telefono.png" alt=""></figure>
+					<img class="columna xmall-1 medium-2" src="images/telefono.png" alt=""></figure>
 					<p class="columna xmall-11 medium-10">+52 55 52 92 05 01</p>
 
 					<div class="clear margin-bottom"></div>
 
-					<img class="columna xmall-1 medium-2" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/correo.png" alt=""></figure>
+					<img class="columna xmall-1 medium-2" src="images/correo.png" alt=""></figure>
 					<a class="columna xmall-11 medium-10" href="mailto:contacto@amapolaestudio.com">contacto@amapolaestudio.com</a>
 
 				</div><!-- contacto_left -->
@@ -427,17 +427,17 @@
 
 						<div class="clearfix">
 							<img class="span xmall-2" src="images/nombre.png" alt="" class="">
-							<input class="nombre js-input columna xmall-10" id='form-nombre' placeholder='Nombre Completo:' type="text">
+							<input class="nombre js-input columna xmall-10" id='form-nombre' placeholder='Nombre Completo' type="text">
 						</div><!-- clearfix -->
 
 						<div class="clearfix">
 							<img class="span xmall-2" src="images/mailform.png" alt="" class="">
-							<input class="mail js-input columna xmall-10" id='form-email' placeholder='Mail:' type="email">
+							<input class="mail js-input columna xmall-10" id='form-email' placeholder='Mail' type="email">
 						</div><!-- clearfix -->
 
 						<div class="clearfix">
 							<img class="span xmall-2" src="images/comentario.png" alt="" class="">
-							<textarea class="comentarios js-input columna xmall-10" id='form-comentarios' placeholder='Comentarios:'></textarea>
+							<textarea class="comentarios js-input columna xmall-10" id='form-comentarios' placeholder='Comentarios'></textarea>
 						</div><!-- clearfix -->
 
 						<div class="form-controls span xmall-5 right">
