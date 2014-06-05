@@ -5,7 +5,7 @@
 		<p>Diseño de logotipo, brochure informativo, flyers y página web.</p>
 	</div>
 	<figure>
-		<img class="block center" src="http://nodo.pw/amapola_web/wp/wp-content/uploads/albiceleste1.jpg" alt="Albiceleste">
+		<img class="block center" src="http://nodo.pw/amapola_web/wp/wp-content/uploads/lospatios1.jpg" alt="Albiceleste">
 	</figure>
 	<span class="cerrar">x</span>
 </div>

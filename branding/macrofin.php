@@ -5,7 +5,7 @@
 		<p>Diseño logotipo, papelería, uniformes, acrílicos, letreros para oficina y página web.</p>
 	</div>
 	<figure>
-		<img class="block center" src="http://nodo.pw/amapola_web/wp/wp-content/uploads/albiceleste1.jpg" alt="Albiceleste">
+		<img class="block center" src="http://nodo.pw/amapola_web/wp/wp-content/uploads/macrofin1.jpg" alt="Albiceleste">
 	</figure>
 	<span class="cerrar">x</span>
 </div>

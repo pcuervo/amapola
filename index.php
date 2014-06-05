@@ -26,7 +26,6 @@
 				<li class="clearfix branding">
 					<figure><img src="images/branding.png" alt="Amapola Estudio - Branding"></figure>
 					<p>BRANDING<i class="fa fa-chevron-right right no-medium"></i></p>
-					
 				</li>
 				<li class="clearfix digital">
 					<figure><img src="images/digital.png" alt="Amapola Estudio - digital"></figure>
@@ -407,23 +406,23 @@
 
 					<span>Estamos a tus órdenes</span>
 
-					<img class="columna xmall-2" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/ubicacion.png" alt="">
-					<p class="columna xmall-10"> Pedregal 17-D, Molino del Rey, Miguel Hidalgo 11040, México D.F. </p>
+					<img class="columna xmall-1" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/ubicacion.png" alt="">
+					<p class="columna xmall-11"> Pedregal 17-D, Molino del Rey, Miguel Hidalgo 11040, México D.F. </p>
 
 					<div class="clear margin-bottom"></div>
 
-					<img class="columna xmall-2" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/telefono.png" alt=""></figure>
-					<p class="columna xmall-10">+52 55 52 92 05 01</p>
+					<img class="columna xmall-1" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/telefono.png" alt=""></figure>
+					<p class="columna xmall-11">+52 55 52 92 05 01</p>
 
 					<div class="clear margin-bottom"></div>
 
-					<img class="columna xmall-2" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/correo.png" alt=""></figure>
-					<a class="columna xmall-10" href="mailto:contacto@amapolaestudio.com">contacto@amapolaestudio.com</a>
+					<img class="columna xmall-1" src="http://nodo.pw/amapola_web/wp/wp-content/themes/amapola/images/correo.png" alt=""></figure>
+					<a class="columna xmall-11" href="mailto:contacto@amapolaestudio.com">contacto@amapolaestudio.com</a>
 
 				</div><!-- contacto_left -->
 
 				<div class="contacto_right columna medium-6 xmall-12">
-					<span class="block text-center">Déjanos tus datos para ponernos en <br> contacto contigo:</span>
+					<span class="block text-center">Déjanos tus datos para ponernos en contacto contigo:</span>
 					<form class="formulario" id="formulario" method="post" action="#">
 
 						<div class="clearfix">
