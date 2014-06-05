@@ -279,6 +279,7 @@ section{ background: @claro; }
 
 .content{ margin-bottom: (@margen/2); padding: 100px 0 50px 0; background: #fff; font-weight: 200; font-family:"Podkova", serif; color: @highlight;
 	p{ font-size: 1.4em; }
+	.bold { font-weight: bold; }
 }
 
 .barra_up{ width: 100%; height: (@margen*2); border-top: 5px solid @gris; background:@highlight; position: relative; z-index: 5;
@@ -299,9 +300,10 @@ header{ width: 100%; background: white; z-index: 1000; }
 }
 
 .principal{ margin-bottom: @porcentaje; border-top: 5px @gris solid;
-	> div > a{ display: block; width: 100%; padding: (@margen/2); border-bottom: 1px solid @gris; font-family:'Rambla'; text-transform: uppercase; cursor: pointer; background: @highlight; color: #cccccb;
+	> div > a{ display: block; width: 100%; padding: (@margen/2); border-bottom: 1px solid @gris; font-family:'Rambla'; text-align: left; text-transform: uppercase; cursor: pointer; background: @highlight; color: #cccccb;
 		&:last-child{margin: 0;}
-		&:hover, &.current_page_item, &.active{ color: #fff; }
+		&:hover, &.current_page_item { color: #fff; }
+		&.active { background: @gris; color: @highlight;  }
 	}
 }
 
@@ -326,19 +328,22 @@ header{ width: 100%; background: white; z-index: 1000; }
 
 /*** PORTAFOLIO ***/
 
-.portafolio{ font-size:22px; line-height: 40px; list-style: none; color: @highlight; text-align: center;
-	li{ width: 100%; border-bottom: 1px solid @claro; background: @digital;
+.portafolio{  font-size:22px; line-height: 40px; list-style: none; color: @highlight; text-align: center;
+	li{ width: 110%; margin-left: -5%; border-bottom: 1px solid @claro; background: @digital;
 		a{ display: block; }
 		figure{ display: inline-block; vertical-align: middle; width: 20%;
 			img{ vertical-align: middle; }
 		}
-		p{ display: inline-block; vertical-align: middle; width: 70%; margin: 0; text-align: left; font-size: 1em; font-family: 'Rambla'; }
+		p{ display: inline-block; vertical-align: middle; width: 70%; margin: 0; text-align: left; font-size: 1em; font-family: 'Rambla'; 
+			i { margin-top: @margen/2; }
+		}
+
 	}
 
 	&.port_sobre{ margin: (@margen*2) auto; }
 }
 
-.descripcion_portafolio{ padding: (@margen*2); list-style: inside; background:#EEEDED; font-family: 'Rambla'; font-size: 1em; line-height: 25px;}
+.descripcion_portafolio{ width:110%; margin-left: -5%; padding: (@margen*2); list-style: inside; background:#EEEDED; font-family: 'Rambla'; font-size: 1em; line-height: 25px;}
 
 .portafolio_proyecto{ margin-bottom: (@porcentaje*2); }
 
@@ -371,7 +376,7 @@ header{ width: 100%; background: white; z-index: 1000; }
 }
 
 .estrategia_hover{ display: block; width: 100%; position: absolute;
-	&.estra_1 { top: 27%;
+	&.estra_1 {  top: 27%;
 		span{ left: 60%; }
 	}
 	&.estra_2 { top: 48%;
@@ -386,9 +391,12 @@ header{ width: 100%; background: white; z-index: 1000; }
 		p,ul,li { width: 100%; font-size: 15px; font-family: "Rambla", serif; text-align: left; }
 		ul{ list-style: inside; }
 
-		&.estra_web_1 { top: 0; left: 8%; }
-		&.estra_web_2 { top: 0; left: 8%; }
-		&.estra_web_3 { top: 0; left: 8%; }
+		&.estra_web_1 { top: 0; }
+		&.estra_web_2 { top: 0; }
+		&.estra_web_3 { top: 0; }
+
+		a { border:1px solid #000; }
+		h4, a { font-family: 'Rambla'; }
 
 	}
 
