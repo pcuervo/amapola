@@ -186,9 +186,11 @@
 				<span></span>
 				<div class="estrategia_web columna medium-4 xmall-12 estra_web_1">
 					<div class="columna full no-medium">
-						<a class="columna xmall-2 block" href="#"></a>
+						<img class="columna xmall-2 block" src="images/info.png"></a>
 						<h4 class="columna xmall-8">Workshop con cliente</h4>
-						<a class="columna xmall-2 block" href="#"></a>
+						<a class="columna xmall-2 block cerrar" href="#">
+							<img src="images/cerrar.png"></a>
+						</a>
 					</div>
 					<p>Se trabaja con el cliente para entender a profundidad su producto o servicio.</p>
 					<p>Se definen:</p>
@@ -204,11 +206,13 @@
 
 			<div class="estra_2 estrategia_hover">
 				<span></span>
-				<div class="estrategia_web columna medium-4 xmall-10 estra_web_2">
+				<div class="estrategia_web columna medium-4 xmall-12 estra_web_2">
 					<div class="columna full no-medium">
-						<a class="columna xmall-2 block" href="#"></a>
+						<img class="columna xmall-2 block" src="images/info.png"></a>
 						<h4 class="columna xmall-8">Investigación</h4>
-						<a class="columna xmall-2 block" href="#"></a>
+						<a class="columna xmall-2 block cerrar" href="#">
+							<img src="images/cerrar.png"></a>
+						</a>
 					</div>
 					<p>Dependiendo del producto o servicio a estudiar se eligen técnicas de investigación.</p>
 					<p>Se realizan:</p>
@@ -224,11 +228,13 @@
 
 			<div class="estra_3 estrategia_hover">
 				<span></span>
-				<div class="estrategia_web columna medium-4 xmall-10 estra_web_3">
+				<div class="estrategia_web columna medium-4 xmall-12 estra_web_3">
 					<div class="columna full no-medium">
-						<a class="columna xmall-2 block" href="#"></a>
+						<img class="columna xmall-2 block" src="images/info.png"></a>
 						<h4 class="columna xmall-8">Insights</h4>
-						<a class="columna xmall-2 block" href="#"></a>
+						<a class="columna xmall-2 block cerrar" href="#">
+							<img src="images/cerrar.png"></a>
+						</a>
 					</div>
 					<p>Son fundamentos o declaraciones reales sobre los cuales se construyen:</p>
 					<p>Se realizan:</p>

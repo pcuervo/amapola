@@ -229,6 +229,7 @@ doc.on("ready", closeAjaxy);
 doc.on("ready", scrollTop);
 doc.on("ready", fillEmpty);
 doc.on("ready", infoPortafolio);
+doc.on("click", cerrarLightbox);
 //doc.on("change", ".js-input", validar);
 doc.on("click", '.js-ajax', ajaxy);
 doc.on("click", '.enviar', enviando);
@@ -236,7 +237,6 @@ doc.on("click", '.borrar', borrar);
 doc.on("click", '.js-arriba', subir);
 
 $('body').on('mouseenter', '.estrategia_hover span', function() {
-	console.log('entró');
 	$(this).parent().find('.estrategia_web').fadeIn();
 });
 
@@ -321,4 +321,13 @@ function fillEmpty(){
 		}
 
 	});
+
 }
+
+function cerrarLightbox(){
+	$('.cerrar').on('click', function(e){
+		e.preventDefault();
+		$('.estrategia_web').css('display', 'none');
+	});
+}
+
